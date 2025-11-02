@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Agenda de Contatos</string>
+    <string name="nome">Nome:</string>
+    <string name="sobrenome">Sobrenome:</string>
+    <string name="idade">Idade:</string>
+    <string name="celular">Celular:</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="titulo_cadastro">Adicione um novo contato</string>
+    <string name="edite">Edite seu contato</string>
+    <string name="nome_edit">Nome</string>
+    <string name="sobrenome_edit">Sobrenome</string>
+    <string name="idade_edit">Idade</string>
+    <string name="celular_edit">Celular</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="cadastro">Cadastrar</string>
+    <string name="marcos">Marcos</string>
+    <string name="duarte_gomes">Duarte Gomes</string>
+    <string name="_25">25</string>
+    <string name="tel">211151560515</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="cadastro_home">Cadastrar</string>
+    <string name="agenda_de_contatos">Adicione seus contatos</string>
+    <string name="agenda_contatos">Agenda de Contatos</string>
+    <string name="adicione_contatos">Adicione seus contatos abaixo</string>
+    <string name="gabrielly">Gabrielly Soares Marinho</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context=".AtualizarUsuario">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/edite"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer_text"
+        android:layout_below="@id/header_title"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <EditText
+                android:id="@+id/editNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="name"
+                android:hint="@string/nome_edit"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/editSobrenome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="personNameFamily"
+                android:hint="@string/sobrenome_edit"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/editIdade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="none"
+                android:gravity="center"
+                android:hint="@string/idade_edit"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/editCelular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints="phone"
+                android:hint="@string/celular_edit"
+                android:inputType="number"
+                android:maxLength="15"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/btAtualizar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/background_botao_arredondado"
+                android:padding="15dp"
+                android:text="@string/atualizar"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/footer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="GABRIELLY SOARES MARINHO"
+        android:textColor="#B3FFFFFF" 
+        android:textSize="14sp" />
+
+</RelativeLayout>
