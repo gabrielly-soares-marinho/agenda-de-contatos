@@ -4,35 +4,37 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_marginTop="20dp"
-    android:layout_marginStart="5dp"
-    android:layout_marginEnd="5dp"
-    android:layout_marginBottom="10dp">
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/roxo"
+    android:padding="16dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="10dp">
 
         <TextView
             android:id="@+id/txtNome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/marcos"
-            android:textColor="@color/white"
-            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txtSobrenome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="3dp"
+            android:layout_marginStart="8dp"
             android:text="@string/duarte_gomes"
-            android:textColor="@color/white"
-            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -42,8 +44,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_25"
-        android:textSize="22sp"
-        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
         android:layout_gravity="center"/>
 
     <TextView
@@ -51,15 +53,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tel"
-        android:textSize="22sp"
-        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
         android:layout_gravity="center"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="end">
+        android:gravity="end"
+        android:layout_marginTop="10dp">
 
         <ImageView
             android:id="@+id/btAtualizar"
@@ -67,7 +70,7 @@
             android:layout_height="30dp"
             android:contentDescription="@string/todo"
             android:src="@drawable/ic_atualizar"
-            app:tint="@color/white"
+            app:tint="@android:color/white"
             android:layout_marginEnd="20dp"/>
 
         <ImageView
@@ -76,7 +79,7 @@
             android:layout_height="30dp"
             android:contentDescription="@string/todo1"
             android:src="@drawable/ic_deletar"
-            app:tint="@color/white"
+            app:tint="@android:color/white"
             android:layout_marginEnd="20dp"/>
 
     </LinearLayout>

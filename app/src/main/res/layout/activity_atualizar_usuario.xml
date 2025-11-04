@@ -14,7 +14,7 @@
         android:gravity="center"
         android:padding="10dp"
         android:text="@string/edite"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="28sp"
         android:textStyle="bold" />
 
